@@ -1,0 +1,7 @@
+package hiding;
+
+public class MyDate {
+//	int day;
+//	int month;
+//	int year;  default 접근 제어자 -> 같은 package 내에서 public처럼 사용 가능
+}

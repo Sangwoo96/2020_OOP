@@ -1,0 +1,15 @@
+package hiding;
+
+public class MyDate {
+//	int day;
+//	int month;
+//	int year;  default 접근 제어자 -> 같은 package 내에서 public처럼 사용 가능
+	
+	private int day;
+	private int month;
+	private int year;
+	
+	public void setDay(int day) {
+		this.day = day;
+	}
+}

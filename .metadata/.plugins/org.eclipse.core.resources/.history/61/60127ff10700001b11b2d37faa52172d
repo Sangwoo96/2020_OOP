@@ -1,0 +1,7 @@
+package classpart;
+
+public class Student{ 
+	int studentID; //멤버변수, 속성
+	String studentName;
+	String address;
+}

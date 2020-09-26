@@ -1,0 +1,11 @@
+package reference;
+
+public class Subject {
+	String subjectName;
+	int subjectScore;
+	
+//	public Subject(String name, int score) {
+//		subjectName = name;
+//		subjectScore = score;
+//	}
+}
