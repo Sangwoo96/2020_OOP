@@ -5,4 +5,14 @@
 <fullyQualifiedTypeName name="reference.Subject"/>
 <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
 <fullyQualifiedTypeName name="hiding.MyDate"/>
+<fullyQualifiedTypeName name="inheritance.Customer"/>
+<fullyQualifiedTypeName name="inheritance.VIPCustomer"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="polymorphism.Human"/>
+<fullyQualifiedTypeName name="polymorphism.Tiger"/>
+<fullyQualifiedTypeName name="polymorphism.Eagle"/>
+<fullyQualifiedTypeName name="polymorphism.AnimalTest"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="polymorphism.GoldCustomer"/>
+<fullyQualifiedTypeName name="polymorphism.Customer"/>
 </qualifiedTypeNameHistroy>
