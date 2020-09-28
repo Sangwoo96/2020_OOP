@@ -25,12 +25,19 @@ class Tiger extends Animal{
 	public void move() {
 		System.out.println("호랑이가 네 발로 뜁니다.");
 	}
+	
+	public void hunting() {
+		System.out.println("호랑이가 사냥을 합니다.");
+	}
 }
 
 class Eagle extends Animal{
 	@Override
 	public void move() {
 		System.out.println("독수리가 하늘을 날아갑니다.");
+	}
+	public void flying() {
+		System.out.println("독수리가 날아갑니다.");
 	}
 }
 
@@ -41,8 +48,18 @@ public class AnimalTest {
 		Animal tAnimal = new Tiger();
 		Animal eAnimal = new Eagle();
 		
-		hAnimal.move();
-		//hAnimal.readBook();
+		hAnimal.move(); //가능
+		//hAnimal.readBook(); 불가능
+		
+		Human human = (Human)hAnimal; //다운캐스팅
+		human.readBook(); //가능
+		
+		//Eagle eagle = (Eagle)hAnimal; 오류 : 인스턴스의 타입이 다름
+		if(hAnimal instanceof Human){
+			Human human2 = (Human)hAnimal; //다운캐스팅
+			human2.readBook(); //가능
+		}
+		
 		
 		AnimalTest test = new AnimalTest();
 		test.moveAnimal(hAnimal);
