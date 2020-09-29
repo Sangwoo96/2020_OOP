@@ -8,11 +8,16 @@
 <fullyQualifiedTypeName name="inheritance.Customer"/>
 <fullyQualifiedTypeName name="inheritance.VIPCustomer"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="polymorphism.Human"/>
 <fullyQualifiedTypeName name="polymorphism.Tiger"/>
-<fullyQualifiedTypeName name="polymorphism.Eagle"/>
 <fullyQualifiedTypeName name="polymorphism.AnimalTest"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="polymorphism.GoldCustomer"/>
 <fullyQualifiedTypeName name="polymorphism.Customer"/>
+<fullyQualifiedTypeName name="polymorphism.Human"/>
+<fullyQualifiedTypeName name="polymorphism.Eagle"/>
+<fullyQualifiedTypeName name="abstractex.Computer"/>
+<fullyQualifiedTypeName name="abstractex.MyNoteBook"/>
+<fullyQualifiedTypeName name="template.Car"/>
+<fullyQualifiedTypeName name="template.AICar"/>
+<fullyQualifiedTypeName name="template.MaualCar"/>
 </qualifiedTypeNameHistroy>
