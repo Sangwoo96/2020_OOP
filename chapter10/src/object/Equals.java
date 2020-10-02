@@ -18,6 +18,12 @@ class Student{
 		}
 		else return false;
 	}
+
+	@Override
+	public int hashCode() {
+		return num;
+	}
+	
 	
 	
 }
@@ -28,5 +34,7 @@ public class Equals {
 		
 		System.out.println(lee==kim); //林家蔼 犬牢, equals客 悼老
 		System.out.println(lee.equals(kim));
+		System.out.println(lee.hashCode());
+		System.out.println(kim.hashCode());
 	}
 }
